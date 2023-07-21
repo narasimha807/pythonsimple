@@ -1,0 +1,33 @@
+num_list = list(map(int,input().split()))
+sum = sum(num_list)
+length = len(num_list)
+mean = round(sum / length,2)
+print("Mean: " + str(mean))
+
+sorted_list = sorted(num_list)
+size = int(length/2)
+if length % 2 == 0:
+   
+    median = (sorted_list[size] + sorted_list[size-1]) / 2
+    print("Median: " + str(median))
+else: 
+    median = sorted_list[size]
+    print("Median: " + str(median))
+
+set_nums = set(num_list)
+mode_list = sorted(set_nums, key = num_list.count, reverse = True)
+
+mode_max = num_list.count(mode_list[0])
+
+final_list = []
+for i in mode_list:
+    if num_list.count(i)<mode_max:
+        break
+    final_list.append(i)
+mod_result = ""
+for i in final_list:
+    mod_result += str(i) + " "
+    
+print("Mode: " + str(mod_result))
+    
+  
