@@ -1,0 +1,17 @@
+.color{
+    color:#32a8a2;
+}
+
+p{
+    color: #3279a8;
+    
+}
+button{
+    color: pink;
+    
+}
+.background_color{
+    background-color: lightcoral;
+    text-align: center;
+    height: 100vh;
+}
