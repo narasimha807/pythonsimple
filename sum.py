@@ -10,3 +10,5 @@ print(a+b)
 print(a-b)
 #multipication
 print(a*b)
+#Floor Division
+print(3//2)
