@@ -8,3 +8,5 @@ b = 3
 print(a+b)
 #Substracting  two number 
 print(a-b)
+#multipication
+print(a*b)
